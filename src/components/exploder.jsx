@@ -42,7 +42,7 @@ export default function Exploder() {
         <button onClick={handleClick}>☢️ Initiate Destruction ☢️ </button>
         <img
           key={gifKey}
-          src={isGifVisible ? '/assets/explode.gif' : '/assets/static_image.png'}
+          src={isGifVisible ? '/src/assets/explode.gif' : '/assets/static_image.png'}
           alt="GIF"
           style={gifStyle}
         />
