@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import useSound from 'use-sound';
 import explosionSound from '/src/assets/rumblekick.wav';
+import explodeGif from '/src/assets/explode.gif';
 
 export default function Exploder() {
   const [isGifVisible, setIsGifVisible] = useState(false);
@@ -42,7 +43,7 @@ export default function Exploder() {
         <button onClick={handleClick}>☢️ Initiate Destruction ☢️ </button>
         <img
           key={gifKey}
-          src={isGifVisible ? '/explode.gif' : '/static_image.png'}
+          src={isGifVisible ? explodeGif : '/static_image.png'}
           alt="GIF"
           style={gifStyle}
         />
