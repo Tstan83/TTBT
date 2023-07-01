@@ -1,0 +1,28 @@
+
+import "React" from "React"
+import "React-dom" from "React-dom"
+import "nav" from ".\components\nav"
+/* Header - Function in App.jsx
+    LOGO
+    NAV - Cmponent
+        BIO- Cmponent
+        BOOKING- Cmponent
+        MUSIC- Cmponent
+        PORTFOLIO- Cmponent
+        INSTA- Cmponent
+
+Footer - Function in Main.jsx
+    add text for copyright */
+
+
+function Header ()
+    return(
+        <>
+            <img src="logo.png"></ img>
+            <nav></ nav>
+
+        
+        
+        </>
+       
+    )
