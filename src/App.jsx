@@ -1,3 +1,5 @@
+import Navbar from "./components/Navbar"
+
 
 function Profile() {
   return (
@@ -12,11 +14,11 @@ function Profile() {
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
-     
+      <Navbar />
       <section>
       <h1>Amazing scienthhists</h1>
       <Profile />
-      <Profile />
+
       <Profile />
     </section>
 

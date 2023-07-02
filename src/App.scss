@@ -1,3 +1,5 @@
+
+
 $primary-color: #ffd700
 
 @import 'animate.css';
@@ -16,3 +18,12 @@ $primary-color: #ffd700
     font-family: 'Coolvetica';
     src: url(./assets/fonts/CoolveticaRg-Regular.woff2) (format('ttf'));
 }
+
+input,textarea
+{ 
+    font-family: 'Helvetica Neue'
+}
+
+html (
+    font-size: 62.5%
+)
