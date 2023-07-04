@@ -1,8 +1,7 @@
 export default function Logo() {
   
         return (
-          <a href="/" className="ml-3 text-xl">
-
+          <a href="/">
           <img
             src="src/assets/images/travis-logo.png"
             alt="Travis Stanley logo"

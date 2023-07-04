@@ -1,20 +1,18 @@
-import Navbar from "./components/Navbar"
-import Bio from "./components/bio";
+import Navbar from "./components/Navbar";
+import Bio from "./components/Bio";
 import Testimonials from "./components/Testimonials";
 import Portfolio from "./components/Portfolio";
-// import Projects from "./components/Project";
 import Booking from "./components/Booking";
 
 const App = () => {
   return (
-    <div >
+    <main className= "bg-green-600 text-gray-100">
       <Navbar />
       <Bio />
       <Testimonials />
       <Portfolio />
-      {/* <Projects /> */}
       <Booking />
-    </div>
+    </main>
   );
 };
 
