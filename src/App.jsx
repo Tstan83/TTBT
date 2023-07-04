@@ -1,27 +1,21 @@
 import Navbar from "./components/Navbar"
+import Bio from "./components/bio";
+import Testimonials from "./components/Testimonials";
+import Portfolio from "./components/Portfolio";
+// import Projects from "./components/Project";
+import Booking from "./components/Booking";
 
-
-function Profile() {
+const App = () => {
   return (
-    <img
-      src="https://i.imgur.com/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
-
-
-export default function App() {
-  return (
-    <main className="text-gray-400 bg-gray-900 body-font">
+    <div >
       <Navbar />
-      <section>
-      <h1>Amazing scienthhists</h1>
-      <Profile />
-
-      <Profile />
-    </section>
-
-    </main>
+      <Bio />
+      <Testimonials />
+      <Portfolio />
+      {/* <Projects /> */}
+      <Booking />
+    </div>
   );
-}
+};
+
+export default App;

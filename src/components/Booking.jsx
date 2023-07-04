@@ -1,6 +1,6 @@
+import React from "react";
 
-
-export default function Contact() {
+export default function Booking() {
   const [name, setName] = React.useState("");
   const [email, setEmail] = React.useState("");
   const [message, setMessage] = React.useState("");
@@ -46,7 +46,7 @@ export default function Contact() {
               </h2>
               <p className="mt-1">
                 97 Warren St. <br />
-                New York, NY 10007
+                Olympia, WA 10007
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -54,7 +54,7 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                reedbarger@email.com
+                staticghost@email.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
@@ -64,7 +64,7 @@ export default function Contact() {
           </div>
         </div>
         <form
-          netlify
+         
           name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
