@@ -12,7 +12,8 @@ export default function Portfolio() {
             TATTOO PICS HERE
           </p>
         </div>
-        <div className="flex flex-wrap ">
+       
+        <div className="flex flex-wrap "> 
 
           <img src="/assets/images/tat1.jpg"
             
