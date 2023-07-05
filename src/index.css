@@ -2,8 +2,11 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+  font-family: OldEng;
+  src: url(assets/fonts/OE.ttf);
+}
 
-.section {
-    scroll-margin-bottom: 60px; /* Adjust this value to match the height of your navbar */
-  }
-  
+div  {
+  font-family: OldEng;
+}
