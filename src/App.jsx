@@ -1,7 +1,8 @@
-import Navbar from "./components/Navbar";
-import Bio from "./components/Bio";
-import Portfolio from "./components/Portfolio";
-import Booking from "./components/Booking";
+import Navbar from "./components/navbar";
+import Bio from "./components/bio";
+import Portfolio from "./components/portfolio";
+import Booking from "./components/booking";
+import FAQ from "./components/FAQ"
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Bio />
       <Portfolio />
+      <FAQ />
       <Booking />
     </main>
   );
