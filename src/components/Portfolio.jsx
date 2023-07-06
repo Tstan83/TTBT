@@ -6,10 +6,10 @@ export default function Portfolio() {
         <div className="flex flex-col w-full mb-20">
 
           <h1 className="sm:text-4xl text-3xl mb-4 text-white">
-            Tattoos
+            Tattoo Portfolio
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed">
-            TATTOO PICS HERE
+            Past Work
           </p>
         </div>
        
