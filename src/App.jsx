@@ -12,9 +12,7 @@ const App = () => {
       <Bio />
       <Portfolio />
       <FAQ />
-      <section id="booking">
-        
-        </section>
+    
       {/* <Booking /> */}
     </main>
   );
